@@ -1,0 +1,23 @@
+.button-prev{
+  background: url(https://assets.kolonmall.com/_ui/img/pc/icn/icn-swipe-prev-main-v2-8e33d78958.png) no-repeat 50%;
+  background-size: 23px 72px;
+  border: 0;
+  width: 42px;
+  height: 92px;
+  left: 200px;
+  top: 300px;
+  position: absolute;
+  z-index: 2;
+  display: block;
+}
+.button-next{
+  background: url(https://assets.kolonmall.com/_ui/img/pc/icn/icn-swipe-next-main-v2-da3ce770d0.png) no-repeat 50%;
+  background-size: 23px 72px;
+  border: 0;
+  width: 42px;
+  height: 92px;
+  left: 1700px;
+  top: 300px;
+  position: absolute;
+  z-index: 2;
+}

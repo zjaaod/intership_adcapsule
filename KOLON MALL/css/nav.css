@@ -1,0 +1,150 @@
+/*link 클릭하지 않은 링크,
+visited 한번 클릭했던 혹은 다녀갔던 링크
+hover 링크를 클릭하려고 마우스를 가져갔을 때*/
+.nav a:link { color: black; text-decoration: none;}
+.nav a:visited { color: black; text-decoration: none;}
+.nav a:hover { color: #666;}
+.logo {color: black; text-decoration: none;}
+
+ul, ol, li {
+    list-style: none;
+}
+.nav {
+    margin: 0 auto;
+    width: 1425px;
+    color: black;
+    height: 50px;
+}
+.left-side, .right-side{
+    display:block;
+    position: relative;
+}
+.left-element {
+    float: left;
+    margin: 0 50px 0 0;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    background: white;
+
+}
+.right-element {
+    float: right;
+    margin: 0 0 0 50px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    background: white;
+}
+
+.nav .left-side>li:hover .sub-category {
+    display: block;
+}
+.nav .left-side>li a {
+    display: block;
+}
+/*
+.nav .left-side>li a:hover {
+    dot 추가
+}
+*/
+.item li, a, ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.sub-category {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.item{
+    display:block;
+    width: auto;
+    float: left;
+    margin-right: 45px;
+}
+.item li{
+    margin-top: 20px;
+    background: white;
+
+}
+/*
+.item li a:hover{
+    dot 추가
+}
+*/
+
+/*로고*/
+.logo-section{
+    width: 1300px;
+    height: 100px;
+    margin: auto;
+}
+.logo{
+    float:left;
+    width: 180px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo-section li{
+    display:inline-block;
+    padding: 0 11px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 12px;
+}
+.logo-section .cart{
+    display:inline-block;
+    width: 27px;
+    height: 28px;
+    margin-top: -5px;
+    margin-right: -7px;
+}
+.logo-section a{
+    line-height: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*우측 사용자 버튼*/
+.user-convenience{
+    float:right;
+    margin: 0px;
+}
+.cart{
+    display: inline-block;
+    width: 27px;
+    height: 28px;
+    margin-top: -5px;
+    margin-right: -7px;
+    background: url(https://assets.kolonmall.com/_ui/img/pc/icn/icn-cart-3-a973183682.svg) no-repeat;
+    text-indent: -9999px;
+    vertical-align: middle;
+}
+
+/*검색*/
+.form-text{
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    width: 300px;
+    height: 30px;
+    margin: 35px 0 35px 280px;
+    float: left;
+}
+.img-button{
+    margin: 35px 0 35px 10px;
+    height: 30px;
+    float: left;
+    width: 24px;
+    border: 0;
+    background: url(https://assets.kolonmall.com/_ui/img/pc/icn/icn-search-3-ccc81ce776.svg) no-repeat;
+}
+.form-text:focus {
+    outline: none;
+  }
