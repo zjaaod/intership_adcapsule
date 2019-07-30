@@ -1,0 +1,130 @@
+.sub2-slider .exhibit-pic-left{
+    width: 593px;
+    height: calc(100vh - 140px);
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.sub2-slider .exhibit-pic-right{
+    width: 593px;
+    height: calc(100vh - 140px);
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.exhibit-pic-right-up{
+    height: 60%;
+    overflow: hidden;
+}
+.exhibit-pic-right-down{
+    height: 40%;
+    z-index: 10;
+}
+.exhibition-wrap{
+   background-color: #272727;
+}
+.exhibit-membership{
+    width: 297px;
+    height: 100%;
+    background-color: #272727;
+    float: right;
+}
+.exhibit-topic{
+    z-index: 1;
+    width: 700px;
+    height: 700px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 50%;
+	left: 50%;
+    color: white;
+}
+.exhi{
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 60px;
+	left: 50%;
+    font-size: 13pt;
+    color: #979797;
+    width: 700px;
+}
+.exhibit-topic .title{
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 200px;
+	left: 50%;
+    font-size: 50pt;
+    color: white;
+    width: 700px;
+}
+.exhibit-topic .sub-title{
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    transform: translate( -50%, -50% );
+    font-size: 18pt;
+    color: white;
+    width: 700px;
+    top: 310px;
+}
+.exhi-button{
+    width: 240px;
+    height: 46px;
+    color: white;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+	top: 440px;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    background-color: #bb8c57;
+    border: 0;
+}
+.exhi-button2{
+    width: 240px;
+    height: 46px;
+    color: white;
+    border: solid white 1px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+	top: 500px;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    background-color: rgba( 255, 255, 255, 0 );
+}
+.exhi-time{
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 350px;
+	left: 50%;
+    font-size: 13pt;
+    color: #979797;
+    width: 700px;
+}
+.upcoming{
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 500px;
+	left: 50%;
+    font-size: 20pt;
+    color: #bb8c57;
+    width: 700px;
+}

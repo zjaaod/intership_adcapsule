@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/mobile_sub.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <title>LOTTE MUSEUM</title>
+    <style>
+        .exhibition-slider {
+            width: 100%;
+            height: auto;
+            display: flex;
+            margin: 0;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 320px;
+        }
+
+        /*pagination*/
+        .swiper-pagination {
+            z-index: 10;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            top: 280px !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%);
+            height: 30px;
+        }
+
+        .swiper-pagination-bullet {
+            width: 20px;
+            height: 3px;
+            text-align: center;
+            margin: 0 5px;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 0;
+            opacity: 1;
+            border: 0;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #8a6439;
+
+        }
+
+        .about-img {
+            width: 345px !important;
+            height: auto !important;
+            margin: 15px !important;
+        }
+
+        .on {
+            border-top: .5px solid black !important;
+            color: black !important;
+            border-bottom: none !important;
+        }
+
+        .current {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <a href="mobile_main.html"><img src="img/mobile_sub/back.png" class="back-button"></a>
+            <span class="logo-section">
+                <img class="logo" src="img/mobile_sub/logo.png" alt="LOTTE MUSEUM">
+            </span>
+            <img class="my" src="img/mobile_main/my.png">
+        </div>
+    </header>
+
+    <div class="swiper-container exhibition-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/mobile_main/current.png">
+                <div class="exhibition-ticketing">
+                    <div class="exhi-title"><strong>더그 휠러 특별전</strong></div>
+                    <div style="margin: 07px 30px 30px; line-height: 25px; font-size: 10pt;">
+                        <div><span class="exhi-element">기간</span><span>2017.06.01(목) ~ 2017.06.30(금)</span></div>
+                        <div><span class="exhi-element">시간</span><span>[평일] 19:00&nbsp;&nbsp;&nbsp;[토,일,공휴일]
+                                13:00</span></div>
+                        <div><span class="exhi-element">주관</span><span>롯데문화재단</span></div>
+                    </div>
+                    <button class="ticketing-button">전시회 예매하기</button>
+                    <div class="about">
+                        <ul class="tab">
+                            <li id="tab1-1" class="on" style="border-right: .5px solid black">전시안내</li>
+                            <li id="tab1-2">예매안내</li>
+                        </ul>
+
+                        <div id="exhi-about1" class="current">
+                            <img class="about-img" src="img/mobile_sub/about1.png">
+                            <div class="text-wrap">
+                                <p>
+                                    제임스 터렐(James Turrell), 밥 어윈(Bob Irwin) 과 함께 빛과 공간의 예술가로&nbsp;
+                                    유명한 더그 휠러 (1939) 의 1969년 설치 작품이 데이빗 즈워너에서 재설치돼 선보였다.
+                                    (1. 17-2. 25) 휠러는 1960, 70년대 의 남 캘리포니아에서 성했던 소위 빛공간 운동의 선구자로 불리며,&nbsp;
+                                    공간, 빛, 공간에 대한 인식과 경험에 대한 실험을 해왔다.
+                                </p>
+                                <p>
+                                    순백으로 뒤덮힌 공간을 유지하기 위해 입장객은 입구 에서 휜 발싸개를 제공받게 되고,&nbsp;
+                                    한번에 입장인원은 10명으로 제한된다. 흰 덮개를 신고 입장을 기다리는 관객들이 오른편에 살짝 보였다.
+                                </p>
+                            </div>
+                            <img class="about-img" src="img/mobile_sub/about2.png">
+                            <div class="text-wrap">
+                                <p>
+                                    공간에 발을 디디면 우선 눈이 부시고, 그 새하얌에 조금 적 응이 되면 끝을 모르고&nbsp;
+                                    뻗은 것 같은 공간감에 약간에 공포가 밀려오기도 한다. 개인적으로 안개가 그렇게 진하 다는 무진,&nbsp;
+                                    그러니까 가보지도 못했던 도시가 김승옥의 무진기행 속 묘사 덕에 자꾸 상기되기도 했다.
+
+                                </p>
+                                <p>
+                                    한라산 같은 높은 산에 오르면 만날 수 있는 독한 진무(塵霧) 에 둘러싸인 경험이랑 비슷한 거 같다.&nbsp;
+                                    (새집증후군 일으킬 것 같은 페인트와 새설치물들이 뿜어내는, 온갖 유해할 것이 분명한 답답한 냄새와&nbsp;
+                                    자연의 향은 극명히 다르지만) 설원에 눈가루가 휘날리는 것 같은 이미지도 그럴 것 같고. 그러고보니&nbsp;
+                                    올 겨울 뉴욕엔 눈이 덜 내린다.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="ticketing-about1">
+                            <div class="text-wrap">
+                                <p>
+                                    yes24
+                                </p>
+                                <p>
+                                    interpark
+                                </p>
+                            </div>
+                            <div class="text-wrap">
+                                <p>
+                                    melon ticket
+                                </p>
+                                <p>
+                                    hana ticket
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/mobile_main/coming.png">
+                <div class="exhibition-ticketing">
+                    <div class="exhi-title"><strong>웃는 아저씨 특별전</strong></div>
+                    <div style="margin: 07px 30px 30px; line-height: 25px; font-size: 10pt;">
+                        <div><span class="exhi-element">기간</span><span>2017.06.01(목) ~ 2017.06.30(금)</span></div>
+                        <div><span class="exhi-element">시간</span><span>[평일] 19:00&nbsp;&nbsp;&nbsp;[토,일,공휴일]
+                                13:00</span></div>
+                        <div><span class="exhi-element">주관</span><span>애드캡슐문화재단</span></div>
+                    </div>
+                    <button class="ticketing-button">전시회 예매하기</button>
+                    <div class="about">
+                        <ul class="tab">
+                            <li id="tab2-1" class="on" style="border-right: .5px solid black">전시안내</li>
+                            <li id="tab2-2">예매안내</li>
+                        </ul>
+
+                        <div id="exhi-about2" class="current">
+                            <img class="about-img" src="img/mobile_sub/about1.png">
+                            <div class="text-wrap">
+                                <p>
+                                    제임스 터렐(James Turrell), 밥 어윈(Bob Irwin) 과 함께 빛과 공간의 예술가로&nbsp;
+                                    유명한 더그 휠러 (1939) 의 1969년 설치 작품이 데이빗 즈워너에서 재설치돼 선보였다.
+                                    (1. 17-2. 25) 휠러는 1960, 70년대 의 남 캘리포니아에서 성했던 소위 빛공간 운동의 선구자로 불리며,&nbsp;
+                                    공간, 빛, 공간에 대한 인식과 경험에 대한 실험을 해왔다.
+                                </p>
+                                <p>
+                                    순백으로 뒤덮힌 공간을 유지하기 위해 입장객은 입구 에서 휜 발싸개를 제공받게 되고,&nbsp;
+                                    한번에 입장인원은 10명으로 제한된다. 흰 덮개를 신고 입장을 기다리는 관객들이 오른편에 살짝 보였다.
+                                </p>
+                            </div>
+                            <img class="about-img" src="img/mobile_sub/about2.png">
+                            <div class="text-wrap">
+                                <p>
+                                    공간에 발을 디디면 우선 눈이 부시고, 그 새하얌에 조금 적 응이 되면 끝을 모르고&nbsp;
+                                    뻗은 것 같은 공간감에 약간에 공포가 밀려오기도 한다. 개인적으로 안개가 그렇게 진하 다는 무진,&nbsp;
+                                    그러니까 가보지도 못했던 도시가 김승옥의 무진기행 속 묘사 덕에 자꾸 상기되기도 했다.
+
+                                </p>
+                                <p>
+                                    한라산 같은 높은 산에 오르면 만날 수 있는 독한 진무(塵霧) 에 둘러싸인 경험이랑 비슷한 거 같다.&nbsp;
+                                    (새집증후군 일으킬 것 같은 페인트와 새설치물들이 뿜어내는, 온갖 유해할 것이 분명한 답답한 냄새와&nbsp;
+                                    자연의 향은 극명히 다르지만) 설원에 눈가루가 휘날리는 것 같은 이미지도 그럴 것 같고. 그러고보니&nbsp;
+                                    올 겨울 뉴욕엔 눈이 덜 내린다.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="ticketing-about2">
+                            <div class="text-wrap">
+                                <p>
+                                    yes24
+                                </p>
+                                <p>
+                                    interpark
+                                </p>
+                            </div>
+                            <div class="text-wrap">
+                                <p>
+                                    melon ticket
+                                </p>
+                                <p>
+                                    hana ticket
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="icon-section">
+        <a>
+            <img src="img/main1/ticket.png">
+            <div>예매안내</div>
+
+        </a>
+        <a>
+            <img src="img/main1/book.png">
+            <div>이용안내</div>
+        </a>
+        <a>
+            <img src="img/main1/road.png">
+            <div>오시는 길</div>
+        </a>
+        <a>
+            <img src="img/main1/question.png">
+            <div>자주하는 질문</div>
+        </a>
+    </div>
+    <footer>
+        <div style="display: flex;">
+            <span class="footer-element">이용약관</span>
+            <span class="footer-element">개인정보처리방침</span>
+            <span class="footer-element">고객센터</span>
+        </div>
+        <div class="copyright">ⓒ2017 LOTTE Museum ALL RIGHTS RESERVED</div>
+    </footer>
+    <!--swiper-->
+    <script src="js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        var swiper = new Swiper('.exhibition-slider', {
+            paginationClickable: true,
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<hr class="' + className + '">' + '</hr>';
+                },
+            },
+            autoplayDisableOnInteraction: false,
+        });
+        $('#tab1-1').click(function () {
+            $("#tab1-1").addClass('on');
+            $("#tab1-2").removeClass('on');
+            $("#exhi-about1").addClass('current');
+            $("#ticketing-about1").removeClass('current');
+        });
+        $('#tab1-2').click(function () {
+            $("#tab1-1").removeClass('on');
+            $("#tab1-2").addClass('on');
+            $("#ticketing-about1").addClass('current');
+            $("#exhi-about1").removeClass('current');
+        });
+        $('#tab2-1').click(function () {
+            $("#tab2-1").addClass('on');
+            $("#tab2-2").removeClass('on');
+            $("#exhi-about2").addClass('current');
+            $("#ticketing-about2").removeClass('current');
+        });
+        $('#tab2-2').click(function () {
+            $("#tab2-1").removeClass('on');
+            $("#tab2-2").addClass('on');
+            $("#ticketing-about2").addClass('current');
+            $("#exhi-about2").removeClass('current');
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    width: 375px;
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    display: none; /*스크롤바는 보이지 않으나 스크롤 기능은 작동*/
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+/*header*/
+.header-section{
+    width: 345px;
+    height: 60px;
+    margin: 0 auto;
+}
+.menu-icon{
+    width: 25px;
+    height: 12px;
+    float: left;
+    margin: 24px 0;
+}
+.logo{
+    width: 165px;
+    margin-top: 12px;
+}
+.logo-section{
+    text-align: center;
+    width: 345px;
+    height: 60px;
+    display: block;
+}
+.my{
+    float: right;
+    padding: 0;
+    margin: -42px 0 0 0;
+    line-height: 60px;
+    height: 24px;
+}
+
+/*museum slider*/
+.museum-wrap{
+    margin-top: 15px;
+}
+.museum-slider .title{
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 130px;
+	left: 50%;
+    font-size: 30pt;
+    color: white;
+    width: 700px;
+}
+.museum-slider .sub-title{
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    transform: translate( -50%, -50% );
+    font-size: 10pt;
+    color: white;
+    width: 700px;
+    top: 160px;
+}
+.museum-slider .button{
+    width: 180px;
+    height: 48px;
+    color: white;
+    border: solid white 1px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+	top: 270px;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    background-color: rgba( 255, 255, 255, 0 );
+}
+
+/*exhibition slider*/
+.exhibition-wrap{
+    margin-top: 60px;
+}
+.exhibition-slider .title{
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    transform: translate( -50%, -50% );
+	top: 80px;
+	left: 50%;
+    font-size: 25pt;
+    color: white;
+    width: 700px;
+}
+.exhibition-slider .button{
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: solid white 1px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+	top: 180px;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    background-color: rgba( 255, 255, 255, 0 );
+    cursor:pointer;
+}
+
+/*event slider*/
+.event-wrap{
+    height: 240px;
+    margin: 50px 15px 0;
+}
+.slider-title{color: white; float: left; margin: 0 0 5px 0;}
+.slider-title-add{color: #606060; font-size: 13px; float: right; margin: 0 0 5px 0;}
+.slider-title-hr{
+    width: 345px;
+    border: solid 1px #606060;
+    margin: 0 0 15px 0;
+}
+.event-title{
+    color: white;
+    font-size: 9pt;
+    float: left;
+    margin-top: 10px;
+}
+.event-date{
+    color: #636363;
+    margin-top: 8px;
+    float: left;
+    font-size: 8pt;
+
+}
+
+/*notice wrap*/
+.notice-wrap{
+    margin: 0 15px;
+}
+.notice-text{
+    float: left;
+    color: #5e5e5e;
+    height: 45px;
+}
+.notice-title{font-size: 12pt;}
+.notice-date{font-size: 9pt;}
+.notice-wrap img{
+    float: right;
+    height: 19px;
+    margin-top: 13px; 
+}
+.notice-element{
+    border-bottom: solid .5px #606060;
+    margin: 0 0 15px 0;
+    height: 45px;
+    padding: 5px 0;
+}
+
+/*icon section*/
+.icon-section{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    text-align: center;
+    margin: 40px 0;
+}
+.icon-section img{
+    height: 70%;
+}
+.icon-section a{
+    font-size: 8pt;
+    flex: 1;
+    height: 60px;
+}
+
+/*footer*/
+footer{
+    width: 100vw;
+    color: #606060;
+    text-align: center;
+}
+.footer-element{
+    flex: 1;
+    font-size: 10pt;
+}
+.copyright{
+    font-size: 7pt;
+    margin: 15px 0 30px 0;
+}

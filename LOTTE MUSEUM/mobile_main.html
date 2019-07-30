@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/mobile_main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <title>LOTTE MUSEUM</title>
+    <style>
+        .museum-slider {
+            width: calc(100vw - 30px);
+            height: 442px;
+            text-align: center;
+            vertical-align: center;
+        }
+
+        .museum-slider img {
+            height: 100%;
+            max-height: 442px;
+            vertical-align: middle;
+        }
+
+        .exhibition-slider {
+            width: 275px;
+            height: 230px;
+            text-align: center;
+            vertical-align: center;
+            overflow: visible;
+        }
+
+        .exhibition-slider img {
+            width: 100%;
+            max-height: 230px;
+            vertical-align: middle;
+        }
+
+        .exhibition-slider .swiper-slide-prev img {
+            height: 80%;
+            width: 80%;
+            margin-top: 10%;
+            transition: 0.5s;
+        }
+
+        .exhibition-slider .swiper-slide-next img {
+            height: 80%;
+            width: 80%;
+            margin-top: 10%;
+            transition: 0.5s;
+        }
+
+        .event-slider {
+            width: calc(100vw - 30px);
+            height: auto;
+            text-align: center;
+            vertical-align: center;
+        }
+
+        .event-slider .swiper-slide {
+            width: 150px;
+            vertical-align: middle;
+        }
+
+        .event-slider img {
+            width: 150px;
+            vertical-align: middle;
+        }
+
+        /*pagination*/
+        .swiper-pagination {
+            z-index: 10;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            bottom: 25px !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .swiper-pagination-bullet {
+            width: 20px;
+            height: 3px;
+            text-align: center;
+            margin: 0 5px;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 0;
+            opacity: 1;
+            border: 0;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #8a6439;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <span id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+
+                </a>
+            </span>
+            <img src="img/main1/menu-icon.png" class="menu-icon" onclick="openNav()">
+
+            <span class="logo-section">
+                <img class="logo" src="img/mobile_main/logo.png" alt="LOTTE MUSEUM">
+            </span>
+            <img class="my" src="img/mobile_main/my.png">
+        </div>
+    </header>
+
+    <div class="museum-wrap">
+        <div class="swiper-container museum-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/main1/background01.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main1/background02.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main1/background03.jpg">
+                </div>
+            </div>
+            <div class="content-wrap">
+                <div class="title">GRAND OPEN</div>
+                <div class="sub-title">PREMIUM CULTURE SPACE <strong>LOTTE MUSEUM</strong></div>
+                <button class="button">롯데뮤지엄 체험하기</button>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="exhibition-wrap">
+        <div style="color: white; text-align: center; margin-bottom: 25px;">EXHIBITION</div>
+        <div class="swiper-container exhibition-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/current.png">
+                    <div class="title">DOUG<br>WHEELER</div>
+                    <a href="mobile_sub.html"><button class="button">+</button></a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/coming.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/past.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="event-wrap">
+        <div>
+            <span class="slider-title">EVENT</span>
+            <span class="slider-title-add">MORE&nbsp;+</span>
+            <hr class="slider-title-hr">
+        </div>
+        <div class="swiper-container event-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/event1.png">
+                    <div class="event-title">주중 관람시 30% 할인</div>
+                    <div class="event-date">2017.06.01 ~ 2017.06.30 </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/event2.png">
+                    <div class="event-title">신규회원가입시 20%할인</div>
+                    <div class="event-date">2017.06.01 ~ 2017.06.30 </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/event1.png">
+                    <div class="event-title">주중 관람시 30% 할인</div>
+                    <div class="event-date">2017.06.01 ~ 2017.06.30 </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/event2.png">
+                    <div class="event-title">신규회원가입시 20%할인</div>
+                    <div class="event-date">2017.06.01 ~ 2017.06.30 </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/event1.png">
+                    <div class="event-title">주중 관람시 30% 할인</div>
+                    <div class="event-date">2017.06.01 ~ 2017.06.30 </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/mobile_main/event2.png">
+                    <div class="event-title">신규회원가입시 20%할인</div>
+                    <div class="event-date">2017.06.01 ~ 2017.06.30 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notice-wrap">
+        <div>
+            <span class="slider-title">NOTICE</span>
+            <span class="slider-title-add">MORE&nbsp;+</span>
+            <hr class="slider-title-hr">
+        </div>
+        <div class="notice-element">
+            <span class="notice-text">
+                <div class="notice-title">롯데뮤지엄 채용 공고</div>
+                <div class="notice-date">2017-05-29</div>
+            </span>
+            <img src="img/mobile_main/arrow.png">
+        </div>
+        <div class="notice-element">
+            <span class="notice-text">
+                <div class="notice-title">스페셜 야간 개관 안내</div>
+                <div class="notice-date">2017-05-21</div>
+            </span>
+            <img src="img/mobile_main/arrow.png">
+        </div>
+        <div class="notice-element">
+            <span class="notice-text">
+                <div class="notice-title">롯데뮤지엄 개인정보처리방침 변경안내</div>
+                <div class="notice-date">2017-05-15</div>
+            </span>
+            <img src="img/mobile_main/arrow.png">
+        </div>
+    </div>
+    <div class="icon-section">
+        <a>
+            <img src="img/main1/ticket.png">
+            <div>예매안내</div>
+
+        </a>
+        <a>
+            <img src="img/main1/book.png">
+            <div>이용안내</div>
+        </a>
+        <a>
+            <img src="img/main1/road.png">
+            <div>오시는 길</div>
+        </a>
+        <a>
+            <img src="img/main1/question.png">
+            <div>자주하는 질문</div>
+        </a>
+    </div>
+    <footer>
+        <div style="display: flex;">
+            <span class="footer-element">이용약관</span>
+            <span class="footer-element">개인정보처리방침</span>
+            <span class="footer-element">고객센터</span>
+        </div>
+        <div class="copyright">ⓒ2017 LOTTE Museum ALL RIGHTS RESERVED</div>
+    </footer>
+
+    <!--swiper-->
+    <script src="js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        var swiperM = new Swiper('.museum-slider', {
+            paginationClickable: true,
+            slidesPerView: 1,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<hr class="' + className + '">' + '</hr>';
+                },
+            },
+            autoplayDisableOnInteraction: false,
+        });
+
+        var swiperEx = new Swiper('.exhibition-slider', {
+            paginationClickable: true,
+            slidesPerView: 1,
+            loop: true,
+        });
+        var swiperEv = new Swiper('.event-slider', {
+            slidesPerView: 'auto',
+            spaceBetween: 10,
+            freeMode: true,
+        });
+    </script>
+</body>
+
+</html>

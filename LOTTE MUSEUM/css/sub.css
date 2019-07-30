@@ -1,0 +1,55 @@
+/*sub-menu*/
+.sub-menu{
+    border-top: 3px solid #bb8c57;
+    border-bottom: 1px solid #d1d1d1;
+    line-height: 45px;
+    height: 45px;
+    width: 100%;
+}
+.home{
+    float: left;
+    width: 70px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-right: 1px solid #d1d1d1;
+    margin: 0;
+    padding: 0;
+    background-color: rgba( 0, 0, 0, 0 );;
+}
+.gallery-all{
+    float: left;
+    text-align: center;
+    width: 142px;
+    height: 45px;
+    background-color: rgba( 0, 0, 0, 0 );;
+    border-right: 1px solid #d1d1d1;
+}
+.gallery{
+    line-height: 45px;
+}
+.wrap-box{
+    border: 0;
+    background-color: rgba( 0, 0, 0, 0 );;
+    color: #666666;
+    padding: 0;
+    margin: 0;
+    line-height: 45px;
+}
+
+/*본문*/
+.gallery-title-section{
+    margin-top: 2vh; 
+}
+.gallery-title{
+    font-size: 30pt;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+.gallery-sub-title{
+    margin: .5vh auto 0;
+    font-size: 13pt;
+    width: 1000px;
+    text-align: center;
+}

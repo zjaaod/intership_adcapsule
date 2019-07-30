@@ -1,0 +1,40 @@
+.event-section{
+    float: left;
+    width: 33.33%;
+    height: calc(100vh - 140px);
+}
+.event-content{
+    margin-top: 1.5vh;
+}
+.event-date{
+    color: #636363;
+    margin-top: 8px;
+}
+.event-button{
+    width: 162px;
+    height: 38px;
+    color: white;
+    border: solid white 1px;
+    z-index: 1;
+    text-align: center;
+    background-color: rgba( 255, 255, 255, 0 );
+    margin-top: 2.5vh;
+}
+.event{
+    text-align: center;
+    width: 500px;
+    font-size: 13px;
+    color: #979797;
+    z-index: 1;
+    display: inline-block;
+    margin-top: 4vh;
+}
+.foryou{
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+    color: white;
+    z-index: 1;
+    display: inline-block;
+    margin-top: 10px;
+}
